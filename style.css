@@ -40,3 +40,7 @@
   top: 0;
   position: absolute;
 }
+
+.grid-layout {
+  border: 1px solid red;
+}
