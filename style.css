@@ -1,0 +1,42 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  background-image: url(/images/Logo.svg);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img61 {
+  z-index: 2;
+  translate: 0 10%;
+}
+
+.card {
+  position: relative;
+}
+
+.features-card {
+  background-color: lightpink;
+  border-radius: 150px 51px 57px 29px;
+}
+
+.fc1 {
+  background-image:;
+}
+
+.features-card::before {
+  content: "";
+  background-image: url(/images/image6\ 1.svg);
+  width: 100px;
+  height: 100px;
+  transform: translateY(100%);
+  transform: translateX(-50%);
+  left: 0;
+  top: 0;
+  position: absolute;
+}
